@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Почему я выброл напровление Front-end &#128526</h2>
+    <p>Всегда хотел попробовать себя в сфере <strong>IT.</strong>Так же начать с этого направления посоветовали знакомые работающие в данной сфере.<ins>Изучив</ins> информацию на больших просторах интернета <mark>Фронт</mark> стал интересен потому, что мне нравиться видеть результат своей работы сразу.<em>Тут много пространства для творчества, можно не только визуализировать свои идеи </em> но и создавать удобный сайт для пользования как для себя, так и для других.<br> Мои сильные качества: коммуникабельность, усидчивость, умение работать в команде  &#9889;</p><hr>
+    <img 
+    src="./images/smeshnie-pandi-1.jpg" 
+    alt="Funny Panda"
+    width="600px"
+    height="400px">
+    <div><ol>
+        <li>Знакомство с Web</li>
+        <ul>
+            <li>Краткая история Web и что такое интернет.</li>
+            <li>Как устроен браузер и как он получает страницы по сети.</li>
+            <li>Что такое Git?</li>
+            <li>Создание первого репозитория.</li>
+            <li>О файле .gitignore.</li>
+        </ul>
+        <li>HTML- верстка-первые шаги</li>
+        <ul>
+            <li>Настройка рабочей среды.</li>
+            <li>Краткая история HTML.</li>
+            <li>Какие бывают теги и что такое атрибуты.</li>
+            <li>Теги для работы с текстом.</li>
+            <li>Создание собственной страницы.</li>
+        </ul>
+        <li>Погружение в HTML-разметку</li>
+        <ul>
+            <li>Мета-теги.</li>
+            <li>Мнемоники.</li>
+            <li>Тег для работы с изображениями.</li>
+            <li>Теги для работы со списками.</li>
+            <li>Теги для работы с таблицами.</li>
+            <li>Теги для работы с формами.</li>
+            <li>Div-блоки.</li>
+        </ul>
+    </ol></div>
+    <div><table border="1" width="50%">
+        <caption><b>Таблица</b></caption>
+        <thead>
+            <tr>
+                <th>Tag</th>
+                <th>Description</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>&#60;table&#62;</td>
+                <td>Defines a table</td>
+            </tr>
+            <tr>
+                <td>&#60;tr&#62;</td>
+                <td>Defines a row in a table</td>
+            </tr>
+            <tr>
+                <td>&#60;th&#62;</td>
+                <td rowspan="2">Defines a "header cell"/ "Cell" in table</td>
+            </tr>
+            <tr>
+                <td>&#60;td&#62;</td>
+            </tr>
+            <tr>
+                <td colspan="2">Rareli used</td>
+            </tr>
+            <tr>
+                <td>&#60;caption&#62;</td>
+                <td>Defines a table caption</td>
+            </tr><tr>
+                <td>&#60;thead&#62;</td>
+                <td>Groups the header content in a table</td>
+            </tr><tr>
+                <td>&#60;tbody&#62;</td>
+                <td>Groups the body content in a table</td>
+            </tr><tr>
+                <td>&#60;tfoot&#62;</td>
+                <td>Groups the foot content in a table</td>
+            </tr>
+        </tbody>
+    </table></div>
+    <form action="/" method="GET" style="margin-top: 20px;">
+    <fieldset>
+    <legend>My first name</legend>
+        <div><label for="Name">Name</label></div>
+        <div><input type="text" name="name" id="Name" placeholder="Enter user name" minlength="5" maxlength="500" requiredl></div>
+        <div><label for="mail">Mail</label></div>
+        <div><input type="mail" name="mail" placeholder="Enter youre mail" id="mail" maxlength="500" minlength="5" required>
+        <div> <label for="pass">Password</label></div>
+        <div><input type="password" name="password" placeholder="Enter yuore password" id="pass" maxlength="500" required></div>
+        <div><label for="range">Youre programming lvl</label></div>
+        <div><input type="range" min="0" max="10" name="range" id="range"></div>
+    </div>    
+        <p>What does HTML stand for</p>
+    <div>  
+        <input type="checkbox" id="a" name="checkbox" value="Hyper and Text Markup Language">
+        <label for="a">Hyper and Text Markup Language</label><br>
+        <input type="checkbox" id="b" name="checkbox">
+        <label for="b">Home Tool Markup Language</label><br>
+        <input type="checkbox" id="c" name="checkbox" value="Home Text Markup Language">
+        <label for="c">Home Text Markup Language</label>
+    </div> 
+        <p>What does HTTP stad for</p>
+    <div>  
+        <input type="radio" id="a" name="abc" value="Hyper Text Tranclate Protocol" required>
+        <label for="a">Hyper Text Tranclate Protocol</label><br>
+        <input type="radio" id="b" name="abc" value="Hyper Text Transmission Protocol">
+        <label for="b">Hyper Text Transmission Protocol</label><br>
+        <input type="radio" id="c" name="abc" value="Hyper Text Transfer Protocol">
+        <label for="c">Hyper Text Transfer Protocol</label>
+    </div>    
+        <div><label for="Comment">Comment</label></div>
+        <div><textarea name="comment" placeholder="Comment" id="Comment" cols="30" rows="10"></textarea></div>
+        <p>What does HTML stand for</p>
+        <div><select name="HTML">
+            <option value="default">Default</option>
+            <option value="HTML">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+        </select></div>
+        <div><button type="submit" style="margin-top: 20px;">Send</button></div>
+   </fieldset>
+   </form>
+</body>
+</html>
