@@ -1,0 +1,170 @@
+@import url(./fonts.css);
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+.top-section {
+  background-image:url(../imeges/castelmezzano-1979546\ 1.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  padding-top: 51px;
+  padding-bottom: 120px ;
+
+}
+
+.container {
+  max-width: 1264px;
+  padding: 0 16px;
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav {
+  margin-left: auto;
+  margin-right: 48px;
+  display: flex;
+} 
+
+.nav .link-stays::after {
+  margin: 0 auto;
+  content: "";
+  width: 95%;
+  height: 4px;
+  background-color: #F5BD41;
+  display: block;
+}
+
+.link-stays {
+  margin-right: 24px;
+  text-decoration: none;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.link-attractions {
+  text-decoration: none;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.link-night {
+  width: 30px;
+  height: 30px;
+  margin-right: 24px;
+  text-decoration: none;
+}
+
+.link-account {
+  width: 40px;
+  height: 40px;
+  margin-right: 6px;
+  text-decoration: none;
+}
+
+.line-header {
+  width: 50px;
+  height: 1px;
+  background-color: #F5BD41;
+}
+
+.page-content {
+  margin-top: 196px;
+}
+
+.search{
+  display: flex;
+}
+
+.page-title {
+  max-width: 542px;
+  font-weight: 500;
+  margin-bottom: 100px;
+  font-size: 50px;
+  line-height: 59px;
+  color: #FFFFFF;
+}
+
+.label-text {
+  margin-bottom: 24px;
+}
+
+.page-text {
+  padding-right: 221px;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.search-one {
+  width: 467px;
+  height: 64px;
+  padding-left: 24px;
+  border-radius: 8px;
+  border: none;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: left;
+}
+
+.date-search {
+  width: 259px;
+  height: 64px;
+  padding-left: 24px;
+  padding-right: 24px;
+  border: 3px solid #F5BD41 ;
+  border-radius: 8px;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+}
+
+.search-two {
+  width: 314px;
+  height: 64px;
+  border: none;
+  border-radius: 8px;
+  padding-left: 24px;
+  padding-right: 24px;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+}
+
+.search-buttin {
+  padding: 20px 57px;
+  background-color: #3077C6;
+  border-radius: 8px;
+  color: #fff;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+}
+
+.apps {
+  margin-top: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.apps-logo {
+  padding-left: 16px;
+}
