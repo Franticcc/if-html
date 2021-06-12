@@ -1,0 +1,144 @@
+@import url(./fonts.css);
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+.conteiner {
+  width: 1264px;
+  padding: 0 16px;
+  margin: 0 auto;
+}
+
+@media only screen and (max-width: 768px ) {
+  .conteiner {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+
+@media only screen and (max-width: 460px ) {
+  .advantages-wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .title {
+    text-align: center;
+    margin-bottom: 24px;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 33px;
+  }
+
+  .text-box {
+    margin-top: 48px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+  }
+}
+
+.advantages {
+  padding: 120px 0;
+}
+
+.advantages-wrapper {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.title {
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 47px;
+}
+
+.title-line {
+  width: 100px;
+  height: 4px;
+  background-color: #F5BD41;
+  border: none;
+  margin: 0 auto;
+  margin-bottom: 80px;
+}
+
+.text-box {
+  margin-top: 48px;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.box {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.sprite-icon {
+  width: 100px;
+  height: 100px;
+}
+.footer {
+  padding: 120px 0;
+  background-color: #10367C;
+}
+
+.wrapper{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.tabs {
+  width: 400px;
+}
+
+.item {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  color: #FFFFFF;
+}
+
+.nav-title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  color: #FFFFFF;
+}
+
+.nav-item {
+  margin-top: 24px;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: left;
+  color: #FFFFFF;
+}
+
+
+.copireght {
+  margin-top: 64px;
+  font-size: 14px;
+  color: #fff;
+}
