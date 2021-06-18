@@ -1,0 +1,382 @@
+@import url(./fonts.css);
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+@import url(./contants.css);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.col-1 { width: var(--column-width) ; }
+.col-2 { width: calc(var(-column-width) * 2) ; }
+.col-3 { width: calc(var(-column-width) * 3); }
+.col-4 { width: calc(var(-column-width) * 4); }
+.col-5 { width: calc(var(-column-width) * 5); }
+.col-6 { width: 50%; }
+.col-7 { width: calc(var(-column-width) * 7); }
+.col-8 { width: calc(var(-column-width) * 8); }
+.col-9 { width: calc(var(-column-width) * 9);}
+.col-10 { width: calc(var(-column-width) * 10);}
+.col-11 { width: calc(var(-column-width) * 11);}
+.col-12 { width: 100%; }
+
+
+
+.conteiner {
+  max-width: 1264px;
+  padding: 0 16px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+.top-section {
+  background-image:url(../images/castelmezzano-1979546\ 1.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  padding-top: 51px;
+  padding-bottom: 120px ;
+
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.nav {
+  margin-left: auto;
+  margin-right: 48px;
+  display: flex;
+} 
+
+.nav .link-stays::after {
+  margin: 0 auto;
+  display: block;
+  content: "";
+  width: 50px;
+  height: 4px;
+  background-color: #F5BD41;
+  position: absolute;
+  transform: scale(0);
+  transition: all .3s;
+}
+
+.nav .link-stays:hover:after {
+  transform: scale(1);
+}
+
+
+.link-stays {
+  margin-right: 24px;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  color: #FFFFFF;
+  transition: text-decoration  ;
+}
+
+.link-attractions {
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.link-night {
+  width: 30px;
+  height: 30px;
+  margin-right: 24px;
+}
+
+.link-account {
+  width: 40px;
+  height: 40px;
+  margin-right: 6px;
+}
+
+.page-content {
+  margin-top: 196px;
+}
+
+.search{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.page-title {
+  font-weight: 500;
+  margin-bottom: 100px;
+  font-size: 50px;
+  line-height: 59px;
+  color: #FFFFFF;
+}
+
+.label-text {
+  margin-bottom: 24px;
+}
+
+.page-text {
+  padding-right: 221px;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.search-one {
+  width: 467px;
+  height: 64px;
+  padding-left: 24px;
+  border-radius: 8px;
+  border: none;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: left;
+}
+
+.date-search {
+  width: 259px;
+  height: 64px;
+  padding-left: 24px;
+  padding-right: 24px;
+  border: 3px solid #F5BD41 ;
+  border-radius: 8px;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+}
+
+.search-two {
+  width: 312px;
+  height: 64px;
+  border: none;
+  border-radius: 8px;
+  padding-left: 24px;
+  padding-right: 24px;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+}
+
+.search-buttin {
+  padding: 20px 57px;
+  background-color: #3077C6;
+  border-radius: 8px;
+  color: #fff;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+}
+
+.apps {
+  margin-top: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.apps-logo {
+  margin-left: 16px;
+}
+ 
+.advantages {
+  padding: 120px 0;
+}
+
+.advantages__wrapper {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.title {
+  position: relative;
+  text-align: center;
+  margin: 20px 0 80px;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 47px;
+}
+
+.title:after {
+  content: '';
+  display: block;
+  height: 4px;
+  width: 100px;
+  background: #F5BD41;
+  position: absolute;
+  bottom: -20px;
+  left: 50%;
+  transform: translateX(-50%) scale(0);
+  transition: all .3s;
+}
+
+.title:hover:after {
+  transform: translateX(-50%) scale(1);
+}
+
+
+.text-box {
+  margin-top: 48px;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.box {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.sprite-icon {
+  width: 100px;
+  height: 100px;
+}
+
+.homes {
+  padding: 120px 0;
+  background-color: #EAF0F9;
+}
+
+.homes__title {
+  text-align: center;
+  margin-bottom: 106px;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 47px;
+}
+.homes__wraper {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.homes__img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.img__arrow {
+  max-width: 0 auto;
+  position: absolute;
+  right: -20px;
+  top: 128px;
+}
+
+.homes__link {
+  align-self: flex-start;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: left;
+  margin-top: 24px;
+  color: #3077C6;
+}
+
+.homes__img__description {
+  align-self: flex-start;
+  max-width: 295px;
+  opacity: .5;
+  margin-top: 24px;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.footer {
+  padding: 120px 0;
+  background-color: #10367C;
+}
+
+.wrapper{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.tabs {
+  width: 400px;
+}
+
+.item {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  color: #FFFFFF;
+}
+
+.nav-title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  color: #FFFFFF;
+}
+
+.nav-item {
+  margin-top: 24px;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: left;
+  color: #FFFFFF;
+}
+
+
+.copireght {
+  margin-top: 64px;
+  font-size: 14px;
+  color: #fff;
+}
+@media only screen and (max-width: 768px ) {
+  .conteiner {
+    width: 100%;
+  }
+}
+
+
+@media only screen and (max-width: 460px ) {
+  .advantages-wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .title {
+    text-align: center;
+    margin-bottom: 24px;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 33px;
+  }
+
+  .text-box {
+    margin-top: 48px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+  }
+}
+
