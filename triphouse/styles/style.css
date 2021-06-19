@@ -41,7 +41,7 @@ a {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 100vh;
+  min-height: 100vh;
   padding-top: 51px;
   padding-bottom: 120px ;
 
@@ -110,8 +110,8 @@ a {
 }
 
 .search{
+  width: 100%;
   display: flex;
-  flex-wrap: wrap;
 }
 
 .page-title {
@@ -135,7 +135,7 @@ a {
 }
 
 .search-one {
-  width: 467px;
+  width: 466px;
   height: 64px;
   padding-left: 24px;
   border-radius: 8px;
@@ -350,15 +350,16 @@ a {
   color: #fff;
 }
 @media only screen and (max-width: 768px ) {
-  .conteiner {
-    width: 100%;
+  .search{
+    display: flex;
+    flex-wrap: wrap;
   }
 }
 
 
 @media only screen and (max-width: 460px ) {
-  .advantages-wrapper {
-    width: 100%;
+
+  .advantages__wrapper {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -379,4 +380,5 @@ a {
     line-height: 18px;
   }
 }
+
 
